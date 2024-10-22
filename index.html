@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>SERVE Advisory Group</title>
+  </head>
+  <body>
+    <!-- first section -->
+    <section id="logo-menu">
+      <div class="mx-auto px-10 py-10">
+        <div class="flex flex-row items-center justify-between lg:space-x-10">
+          <!-- logo -->
+          <div class="cursor-pointer">
+            <img src="img/serve-logo.png" alt="" />
+          </div>
+          <!-- menu -->
+          <div
+            class="hidden lg:flex flex-row space-x-12 items-center font-sans text-textColor"
+          >
+            <a
+              href="#"
+              class="hover:text-softYellow hover:border-b hover:border-b-softYellow"
+              >Home</a
+            >
+            <a
+              href="#"
+              class="hover:text-softYellow hover:border-b hover:border-b-softYellow"
+              >About</a
+            >
+            <a
+              href="#"
+              class="hover:text-softYellow hover:border-b hover:border-b-softYellow"
+              >SERVEsoft</a
+            >
+            <a
+              href="#"
+              class="hover:text-softYellow hover:border-b hover:border-b-softYellow"
+              >Consult</a
+            >
+            <a
+              href="#"
+              class="hover:text-softYellow hover:border-b hover:border-b-softYellow"
+              >Carrers</a
+            >
+            <a
+              href="#"
+              class="hover:text-softYellow hover:border-b hover:border-b-softYellow"
+              >Innovation</a
+            >
+            <!-- book consulation -->
+            <button
+              class="px-12 py-5 bg-softYellow text-white rounded-full hover:bg-darkBlack"
+            >
+              Book Consulation
+            </button>
+          </div>
+
+          <!-- menu button -->
+          <div class="lg:hidden">
+            <button
+              id="menu-btn"
+              type="button"
+              class="z-40 block menu lg:hidden focus:outline-none"
+            >
+              <span class="menu-top"></span>
+              <span class="menu-middle"></span>
+              <span class="menu-bottom"></span>
+            </button>
+          </div>
+        </div>
+        <!-- mobile menu -->
+        <div
+          id="menu"
+          class="hidden z-20 fixed lg:hidden top-0 bottom-0 right-0 w-56 h-80 pb-3 py-1 pt-8 opacity-70 bg-black tracking-widest rounded-md"
+        >
+          <div class="flex font-sans pl-5 flex-col space-y-4 text-textColor">
+            <a href="#Home" class="hover:text-softYellow">Home</a>
+            <a href="#About" class="hover:text-softYellow">About</a>
+            <a href="#" class="hover:text-softYellow">SERVEsoft</a>
+            <a href="#" class="hover:text-softYellow">Consult</a>
+            <a href="#" class="hover:text-softYellow">Carrers</a>
+            <a href="#" class="hover:text-softYellow">Innovation</a>
+            <a href="#" class="hover:text-softYellow font-bold"
+              >Book Consulation</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- second section -->
+
+    <section class="relative border-b-8 border-b-softYellow">
+      <div
+        class="bg-cover bg-center h-screen"
+        style="background-image: url('./img/header-img.png')"
+      >
+        <div
+          class="absolute inset-0 bg-black/50 bg-opacity-40 flex items-center justify-center text-center flex-col space-y-6"
+        >
+          <h1
+            class="text-white text-3xl font-semibold font-sans uppercase tracking-wider leading-10"
+          >
+            welcome to serve Advisory group
+          </h1>
+          <p class="max-w-2xl font-sans text-white mx-7">
+            We are a specialized consulting firm with decades of experience in
+            military and veteran support, as well as professional services. Our
+            expertise extends to providing direct support to healthcare
+            networks, enterprises, and associated technologies.
+          </p>
+          <!-- button -->
+          <div
+            class="flex flex-col items-center md:flex-row space-y-7 md:space-y-0 md:space-x-6"
+          >
+            <button
+              class="px-24 md:px-16 py-5 font-mono text-sm text-darkBlack bg-softYellow tracking-wider rounded-full hover:bg-darkBlack hover:text-white transition duration-150 hover:translate-y-1"
+            >
+              Book Consulation
+            </button>
+            <button
+              class="px-28 md:px-20 py-5 text-sm font-mono text-darkBlack tracking-widest bg-white rounded-full hover:bg-darkBlack hover:text-white transition duration-150 hover:translate-y-1"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section -->
+    <section id="contact" class="bg-textColor">
+      <div class="mx-auto px-6 py-8 lg:px-12">
+        <div
+          class="flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0 sm:space-x-"
+        >
+          <h3 class="font-sans capitalize font-light text-xl">
+            helping you achieve success!
+          </h3>
+          <button
+            class="bg-softYellow px-5 py-3 rounded-full flex items-center justify-center space-x-1"
+          >
+            <p class="capitalize font-sans font-light">contact us</p>
+            <img src="img/contact-arrow.png" alt="" />
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- approach section -->
+    <section id="" class="">
+      <div class="mx-auto px-6 lg:px-12 py-12">
+        <div class="text-center pb-8 lg:pb-14">
+          <h2 class="font-sans text-3xl font-semibold tracking-widest">
+            Our Approach
+          </h2>
+        </div>
+        <!-- accountabilityb -->
+        <div
+          class="pb-16 flex flex-col lg:flex-row-reverse items-center justify-between space-y-10 lg:space-y-0 lg:space-x-16"
+        >
+          <div class="b">
+            <img src="img/acountability-img.png" alt="" />
+          </div>
+          <div class="">
+            <h3
+              class="mb-6 text-lightBlack font-light font-sans text-3xl tracking-wider"
+            >
+              Accountability
+            </h3>
+            <p class="mb-6 opacity-60">
+              Formalized and reinforced commitments made to our clients for all
+              deliverables and services.
+            </p>
+            <a href="#" class="flex items-center space-x-3">
+              <p class="text-softYellow">Learn More</p>
+              <img src="img/arrow-icon.png" alt="" />
+            </a>
+          </div>
+        </div>
+        <!-- guidance -->
+        <div
+          class="w-full pb-16 flex flex-col lg:flex-row items-center justify-between space-y-10 lg:space-y-0 lg:space-x-16"
+        >
+          <div class="lg:w-1/2">
+            <img src="img/gudiance-img.png" alt="" />
+          </div>
+          <div class="lg:w-1/2">
+            <h3
+              class="mb-6 text-lightBlack font-light font-sans text-3xl tracking-wider"
+            >
+              Guidance
+            </h3>
+            <p class="mb-6 opacity-60 max-w-3xl">
+              Every one of our high-caliber teammates understands the importance
+              of continuously refining processes for optimal efficiency.
+            </p>
+            <a href="#" class="flex items-center space-x-3">
+              <p class="text-softYellow">Learn More</p>
+              <img src="img/arrow-icon.png" alt="" />
+            </a>
+          </div>
+        </div>
+        <!-- strategy -->
+        <div
+          class="pb-8 flex flex-col lg:flex-row-reverse items-center justify-between space-y-10 lg:space-y-0 lg:space-x-16"
+        >
+          <div class="b">
+            <img src="img/strategy-img.png" alt="" />
+          </div>
+          <div class="">
+            <h3
+              class="mb-6 text-lightBlack font-light font-sans text-3xl tracking-wider"
+            >
+              Strategy
+            </h3>
+            <p class="mb-6 opacity-60">
+              Effective strategies comprised of our best practices and
+              refinement of key performance indicators.
+            </p>
+            <a href="#" class="flex items-center space-x-3">
+              <p class="text-softYellow">Learn More</p>
+              <img src="img/arrow-icon.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- information section -->
+    <section class="bg-darkBlack py-14">
+      <div class="mx-auto px-6 lg:px-36 py-8 text-contactColor">
+        <!-- first row -->
+        <div
+          class="mb-12 flex flex-col-reverse lg:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-28"
+        >
+          <img src="img/meeting-img.png" class="rounded-md" alt="" />
+          <div class="text-start pb-10 lg:0">
+            <h2 class="mb-2 font-sans text-3xl font-light">
+              Innovation Spotlight
+            </h2>
+            <p class="mb-4 font-sans text-lg font-light">
+              VCL: veterans Signals
+            </p>
+            <p class="opacity-60 text-sm leading-8 max-w-md">
+              In this comprehensive operational and technical report, our team
+              analyzes demographic trends of patient outcomes, assesses Medallia
+              integration for the VA, and presents bespoke AI/ML solutions to
+              support crisis interventions within the offices of the VHA.
+            </p>
+          </div>
+        </div>
+        <!-- second row -->
+        <div
+          class="flex flex-col lg:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-28"
+        >
+          <div class="text-start pb-10 lg:0">
+            <h2 class="mb-2 font-sans text-3xl font-light">
+              Employee Spotlight
+            </h2>
+            <p class="mb-4 font-sans text-lg font-light">Meghan orris</p>
+            <p class="opacity-60 text-sm leading-8 max-w-md">
+              Meghan wears multiple hats at SERVE Advisory Group, where she
+              excels as a dependable leader, partner, and colleague. As of 2024,
+              Meghan serves as a Pillar Lead for Corporate Social
+              Responsibility, an account lead for our Veterans Affairs
+              contracts, and a Managing Director who mentors and trains our
+              team. She is a reliable and resilient leader with numerous success
+              stories under her belt and many more ahead!
+            </p>
+          </div>
+          <div class="">
+            <img src="img/manager-img.png" class="rounded-md mb-4" alt="" />
+            <div class="flex items-start justify-between px-6">
+              <h5 class="font-light font-sans text-lg">
+                P - Managing Director - CSR <br />Lead
+              </h5>
+              <a href="#">
+                <img src="img/linkeden-logo.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- value section -->
+    <section id="" class="pb-32 lg:pb-40">
+      <div class="mx-auto px-10 py-10">
+        <h3 class="font-sans tracking-wider text-3xl text-center pb-10">
+          Our Core Values
+        </h3>
+        <!-- first -->
+        <div
+          class="flex flex-col py-16 lg:flex-row font-sans items-center justify-center space-y-24 lg:space-y-0 lg:space-x-0"
+        >
+          <!-- service -->
+          <div class="flex items-center justify-center">
+            <!-- Circle Container -->
+            <div class="relative flex items-center justify-center">
+              <div
+                class="absolute -top-14 w-20 h-20 bg-softYellow rounded-full flex items-center justify-center"
+              >
+                <img src="img/service-logo.png" alt="" />
+              </div>
+              <!-- Main Container -->
+              <div
+                class="bg-softYellow text-black py-5 w-80 rounded-full lg:rounded-r-none flex items-center justify-center shadow-md"
+              >
+                <span class="font-semibold text-lg">SERVICE-MINDED</span>
+              </div>
+            </div>
+          </div>
+          <!-- eager -->
+          <div class="flex items-center justify-center">
+            <!-- Circle Container -->
+            <div class="relative flex items-center justify-center">
+              <div
+                class="absolute -top-14 w-20 h-20 bg-softYellow rounded-full flex items-center justify-center"
+              >
+                <img src="img/eager-logo.png" alt="" />
+              </div>
+              <!-- Main Container -->
+              <div
+                class="bg-softYellow text-black py-5 w-80 rounded-full lg:rounded-none flex items-center justify-center shadow-md"
+              >
+                <span class="font-semibold text-lg">EAGER</span>
+              </div>
+            </div>
+          </div>
+          <!-- reliable -->
+          <div class="flex items-center justify-center">
+            <!-- Circle Container -->
+            <div class="relative flex items-center justify-center">
+              <div
+                class="absolute -top-14 w-20 h-20 bg-softYellow rounded-full flex items-center justify-center"
+              >
+                <img src="img/reliable-logo.png" alt="" />
+              </div>
+              <!-- Main Container -->
+              <div
+                class="bg-softYellow text-black py-5 w-80 rounded-full lg:rounded-l-none flex items-center justify-center shadow-md"
+              >
+                <span class="font-semibold text-lg">RELIABLE</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- second -->
+        <div
+          class="flex flex-col py-16 lg:flex-row font-sans items-center justify-center space-y-24 lg:space-y-0 lg:space-x-0"
+        >
+          <!-- vital -->
+          <div class="flex items-center justify-center">
+            <!-- Circle Container -->
+            <div class="relative flex items-center justify-center">
+              <div
+                class="absolute -top-14 w-20 h-20 bg-softYellow rounded-full flex items-center justify-center"
+              >
+                <img src="img/vital-logo.png" alt="" />
+              </div>
+              <!-- Main Container -->
+              <div
+                class="bg-softYellow text-black py-5 w-80 rounded-full lg:rounded-r-none flex items-center justify-center shadow-md"
+              >
+                <span class="font-semibold text-lg">VITAL</span>
+              </div>
+            </div>
+          </div>
+          <!-- excell -->
+          <div class="flex items-center justify-center">
+            <!-- Circle Container -->
+            <div class="relative flex items-center justify-center">
+              <div
+                class="absolute -top-14 w-20 h-20 bg-softYellow rounded-full flex items-center justify-center"
+              >
+                <img src="img/excelling-logo.png" alt="" />
+              </div>
+              <!-- Main Container -->
+              <div
+                class="bg-softYellow text-black py-5 w-80 rounded-full lg:rounded-l-none flex items-center justify-center shadow-md"
+              >
+                <span class="font-semibold text-lg">EXCELLING</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- experience section -->
+    <section class="bg-black flex justify-center w-full relative min-h-36 px-8">
+      <div
+        class="absolute lg:w-3/4 -top-40 rounded-md bg-darkWhite lg:px-10 px-6 py-20 text-center"
+      >
+        <h2 class="font-sans capitalize text-2xl font-semibold pb-10">
+          do you want to discuss about your experience
+        </h2>
+        <a
+          href="#"
+          class="px-10 py-5 font-mono text-sm text-darkBlack bg-softYellow tracking-wider rounded-full hover:bg-darkBlack hover:text-white"
+        >
+          Book A Consulation
+        </a>
+      </div>
+    </section>
+    <!-- footer section -->
+    <footer class="bg-black px-8 mx-auto pb-10 lg:px-16 text-white">
+      <!-- menu and logo -->
+
+      <div
+        class="flex flex-col lg:flex-row items-start space-y-10 lg:space-y-0 lg:space-x-20"
+      >
+        <div class="flex flex-col items-start space-y-8">
+          <img src="img/serve-logo.png" alt="" />
+          <p class="font-sans font-light text-sm max-w-sm">
+            Serve Advisory is a consulting firm leveraging decades of experience
+            in military / Veteran support, and professional services. We
+            directly support healthcare networks, enterprises etc.
+          </p>
+        </div>
+        <!-- menu container -->
+        <div
+          class="font-sans flex flex-col items-start lg:flex-row space-y-10 lg:space-y-0 lg:space-x-20"
+        >
+          <!-- first menu  -->
+          <div class="flex flex-col space-y-8 capitalize">
+            <a href="#" class="font-semibold text-xl">company</a>
+            <a href="#" class="font- text-sm">home</a>
+            <a href="#" class="font- text-sm">about us</a>
+            <a href="#" class="font- text-sm">serve soft</a>
+            <a href="#" class="font- text-sm">consult</a>
+          </div>
+          <!-- second menu -->
+          <div class="flex flex-col space-y-8 capitalize">
+            <a href="#" class="font-semibold text-xl">partners</a>
+            <a href="#" class="font- text-sm">terms & conditions</a>
+            <a href="#" class="font- text-sm">privacy policy</a>
+            <a href="#" class="font- text-sm">carees</a>
+            <a href="#" class="font- text-sm">innovation</a>
+          </div>
+        </div>
+        <!-- social icon -->
+        <div class="flex items-start space-x-5">
+          <a href="#" class="bg-softYellow p-3 rounded-md"
+            ><img src="img/facebook-icon.png" class="w-5 h-5" alt=""
+          /></a>
+          <a href="#" class="bg-softYellow p-3 rounded-md"
+            ><img src="img/twitter-icon.png" class="w-5 h-5" alt=""
+          /></a>
+          <a href="#" class="bg-softYellow p-3 rounded-md"
+            ><img src="img/instagram-icon.png" class="w-5 h-5" alt=""
+          /></a>
+          <a href="#" class="bg-softYellow p-3  rounded-md"
+            ><img src="img/footer-linkeden-icon.png" class="w-5 h-5" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class=" border-b border-white py-3"></div>
+      <p class=" text-lg text-center mt-3">
+        &copy2024 Micolexy. All Rights Reserved
+      </p>
+    </footer>
+  </body>
+</html>
